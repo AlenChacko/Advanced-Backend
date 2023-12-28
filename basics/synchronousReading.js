@@ -16,3 +16,15 @@ console.log('finished')
 
 // Writing files synchronously
 
+// starting
+console.log('starting writing')
+
+
+// writting
+console.log('Writing')
+let content = `${inpTxt} This is added additionally`
+fs.writeFileSync('./files/output.txt',content)
+
+
+// finished
+console.log('finished writing')
