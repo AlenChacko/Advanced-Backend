@@ -10,3 +10,9 @@ console.log(inpTxt)
 
 // finished
 console.log('finished')
+
+
+
+
+// Writing files synchronously
+
